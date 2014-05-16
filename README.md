@@ -2,7 +2,7 @@
 
 A PHP library for interacting with the Yandex Metrica REST API v2.
 
-[http://api.yandex.ru/metrika/doc/ref/concepts/About.xml] Документация
+[Документация](http://api.yandex.ru/metrika/doc/ref/concepts/About.xml)
 
 ## Usage
 
@@ -26,7 +26,7 @@ $url = $api->getOAuth()->getLoginUrl($redirectUrl);
  * мы получили код авторизации
  */
 $code = '123456789';
-/*
+
 /**
  * По коду авторизации, и url, на который мы были переадресованы, мы получаем токены доступа,
  * Внимание, код авторизации действует только 1 раз при повторном вызове запроса с тем же кодом доступа
