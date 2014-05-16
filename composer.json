@@ -1,0 +1,30 @@
+{
+    "name": "cnam/YaM",
+    "description": "Sdk for integration yandex metrica api",
+    "keywords": ["yandex metrica"],
+    "minimum-stability": "beta",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Anton Popov",
+            "email": "cnam812@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "YaM": "src"
+        },
+        "classmap": [
+            "src"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "sebastian/phpcpd": "2.0.*",
+        "sebastian/phpdcd": "1.0.*",
+        "phploc/phploc": "2.0.*"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "3.8"
+    }
+}
