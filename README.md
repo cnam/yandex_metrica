@@ -2,6 +2,8 @@
 
 A PHP library for interacting with the Yandex Metrica REST API v2.
 
+[http://api.yandex.ru/metrika/doc/ref/concepts/About.xml] Документация
+
 ## Usage
 
 ```php
