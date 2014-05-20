@@ -1,5 +1,5 @@
 {
-    "name": "cnam/YaM",
+    "name": "cnam/yandex_metrica",
     "description": "Sdk for integration yandex metrica api",
     "keywords": ["yandex metrica"],
     "minimum-stability": "beta",
